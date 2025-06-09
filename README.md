@@ -12,5 +12,14 @@ This project demonstrates nonparametric regression methods applied to spatial da
 ## Installation
 Make sure you have Python 3.x installed, then install the required packages:
 
+## Sample Input Image
+
+This is the outline of the United States used for contour extraction and nonparametric regression modeling.
+
+![USA Outline](images/usa_outline.png)
+
 ```bash
 pip install numpy pandas matplotlib opencv-python scipy scikit-learn
+
+
+
