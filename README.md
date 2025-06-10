@@ -1,19 +1,16 @@
 # Nonparametric Regression on Iran Map Shape
 
 ## Project Overview
-This project demonstrates nonparametric regression methods applied to spatial data by extracting the outline of Iran’s map from an image. Using spline and kernel regression techniques, it models the relationship between coordinates and visualizes the fitting performance.
+This project applies nonparametric regression methods, including spline and kernel regression, to spatial data extracted from the outline of Iran’s map. The goal is to model the relationship between geographic coordinates and analyze the fitting performance.
 
 ## Key Features
-- Image processing to extract Iran’s map boundary points  
+- Extraction of Iran’s map boundary points from an image  
 - Application of linear, kernel, and spline regression models  
-- Visualization of regression results with scatter and fitted curves  
-- Quantitative evaluation using MSE, MAE, Correlation, AIC, and BIC  
+- Visualization of regression results through scatter plots and fitted curves  
+- Quantitative evaluation using standard metrics and spatial distance measures  
 
 ## Installation
-Make sure you have Python 3.x installed, then install the required packages:
+Make sure Python 3.x is installed, then install required packages:
 
 ```bash
 pip install numpy pandas matplotlib opencv-python scipy scikit-learn
-
-
-
